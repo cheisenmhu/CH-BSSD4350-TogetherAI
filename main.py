@@ -5,6 +5,15 @@
 # Purpose: Build a POC using Together AI and Langchain for inclusivity app.
 # File: main.py
 
+# Code originally from: 
+# URL: https://colab.research.google.com/drive/1RW2yTxh5b9w7F3IrK00Iz51FTO5W01Rx#scrollTo=3H7ZINSIqSyn
+# Author: Unknown
+# License: Not Listed
+# Date Accessed: 19 Sept 2023
+# CHANGELOG:
+#  - changed prompts/instructions to align with our intended use
+#  - 
+
 from together_llm import TogetherLLM
 import langchain_prompting as lp
 from langchain import PromptTemplate, LLMChain
